@@ -27,7 +27,7 @@ export default function Register() {
     const handelFormSave = (e) => {
         e.preventDefault();
         if (userData.fullName.trim() && userData.email.trim() && userData.password.trim()) {
-            const findUser = usersData.find(user => user.email == userData.email);
+            const findUser = usersData.find(user => user.email === userData.email);
             if (!findUser) {
                 usersData.push(userData);
                 localStorage.setItem('usersData', JSON.stringify(usersData));

@@ -8,13 +8,13 @@ function Navbar() {
         <div>
             <nav className="navbar navbar-expand-lg navbar-light bg-custimize">
                 <div className="container-fluid mx-md-5">
-                    <a className="navbar-brand d-md-none" href="#">E-commerce</a>
+                    <a className="navbar-brand d-md-none" href="/">E-commerce</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse row" id="navbarTogglerDemo01">
                         <div className="d-xs-none d-md-block col-md-4 mx-auto">
-                            <a className="navbar-brand fs-2" href="#">E-commerce</a>
+                            <a className="navbar-brand fs-2" href="/">E-commerce</a>
                         </div>
                         <div className="col-md-4 col-xs-5">
                             <h4 className=" text-light link-shadow"><sub>www.</sub>BANDICAM<sub>.com</sub></h4>
